@@ -1,0 +1,55 @@
+li{
+    list-style: none;
+}
+
+img{
+    width: 90%;
+    margin: 20px;
+    transition: transform .4s ease;
+}
+
+img:hover{
+    transform: scale(1.2);
+    z-index: 20;
+}
+
+li{
+    float: left;
+}
+
+
+@media screen and (min-width:600px){
+    li{
+        width: 50%;
+    }
+}
+@media screen and (min-width:1200px){
+    li{
+        width: 25%;
+    }
+}
+
+
+≈  
+
+/*Large: 800px width x 600px height - to be used when the page width is greater than 1500px.
+
+Medium: 600px width x 450px height - to be used when the page width is between 700px and 1500px
+
+Small: 400px width x 300px height - to be used when the page width is less than 700px*/
+
+
+
+
+
+
+
+
+
+/*1. Less than 600px - one column layout
+
+2. Between 600px and 1200px - two column layout
+
+3. Above 1200px - four column layout
+
+*/
